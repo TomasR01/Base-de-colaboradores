@@ -1,0 +1,48 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  justify-content: flex-start;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color:wheat;
+  padding: 10px;
+}
+
+.titulo {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.buscador-container {
+  margin-bottom: 20px;
+}
+
+.buscador-input {
+  width: calc(100% - 20px);
+  padding: 8px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  font-size: 17px;
+  margin-bottom: 10px;
+  ::placeholder {
+    color: #aaa;
+  }
+}
+
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.listado-container {
+  flex: 1;
+  margin-right: 20px;
+  padding: 10px;
+}
